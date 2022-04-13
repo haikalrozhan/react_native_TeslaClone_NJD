@@ -18,6 +18,9 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: "#5c5e62",
   },
+  subTitleCTA: {
+    textDecorationLine: 'underline'
+  },
   image: {
     width: "100%",
     height: "100%",
@@ -25,7 +28,7 @@ const styles = StyleSheet.create({
     position: "absolute",
   },
   buttonsContainer: {
-    width: '100%',
+    width: "100%",
     position: "absolute",
     bottom: 50,
   },
